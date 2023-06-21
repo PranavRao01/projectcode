@@ -1,0 +1,19 @@
+upper=[]
+lower=[]
+asc_upper=[]
+asc_lower=[]
+letter_caps="A"
+letter_small="a"
+for i in range(0,4,1):
+    ascii1=ord(letter_caps)+i
+    letter1=chr(ascii1)
+    upper.append(letter1)
+    asc_upper.append(ascii1)
+    ascii2=ord(letter_small)+i
+    letter2=chr(ascii2)
+    lower.append(letter2)
+    asc_lower.append(ascii1)
+print(upper)
+print(asc_upper)
+print(lower)
+print(upper)
